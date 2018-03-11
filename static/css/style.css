@@ -30,7 +30,7 @@ span {
 }
 
 .label-value{
-    width: 200px;
+    width: 235px;
     vertical-align: top;
 }
 
@@ -79,7 +79,7 @@ h1, h2, h3, h4, h5 {
 }
 
 .right-list li {
-    margin-bottom: 12px;
+    margin-bottom: 0px;
 }
 
 
@@ -89,7 +89,7 @@ hr {
 
 .info-unit {
     color: #666;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .remodal-img h3 {
@@ -206,14 +206,14 @@ progress::-moz-progress-value {
     margin: 0 auto;
 
     width: 1050px;
-    height: 1550px;
+    height: 1600px;
     background-color: white;
 
 }
 
 .side {
     position: absolute;
-    width: 360px;
+    width: 400px;
     height: 100%;
     background-color: whitesmoke;
     padding-left: 20px;
