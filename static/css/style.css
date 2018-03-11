@@ -32,6 +32,7 @@ span {
 .label-value{
     width: 235px;
     vertical-align: top;
+    word-break: break-word;
 }
 
 .iconfont {
@@ -61,6 +62,10 @@ h1, h2, h3, h4, h5 {
     margin-left: 200px;
 }
 
+.info-list li{
+    margin-bottom: 10px;
+}
+
 .info-list, .progress-list{
     list-style: none;
     padding-left: 0px;
@@ -75,11 +80,11 @@ h1, h2, h3, h4, h5 {
 }
 
 .stack-list li {
-    margin-bottom: 12px;
+    margin-bottom: 20px;
 }
 
 .right-list li {
-    margin-bottom: 0px;
+    margin-bottom: 20px;
 }
 
 
@@ -162,7 +167,9 @@ progress::-moz-progress-value {
     line-height: 2;
 }
 
-
+.progress-list li {
+    margin-top: 23px;
+}
 
 .me {
     text-align: center;
