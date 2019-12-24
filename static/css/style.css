@@ -1,44 +1,101 @@
-@font-face {font-family: 'iconfont';
-    src: url('../fonts/iconfont.eot'); /* IE9*/
-    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-    url('../fonts/iconfont.woff') format('woff'), /* chrome、firefox */
-    url('../fonts/iconfont.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
-    url('../fonts/iconfont.svg#iconfont') format('svg'); /* iOS 4.1- */
+@font-face {
+    font-family: 'iconfont';
+    src: url('../fonts/iconfont.eot');
+    /* IE9*/
+    src: url('../fonts/iconfont.eot?#iefix') format('embedded-opentype'),
+        /* IE6-IE8 */
+        url('../fonts/iconfont.woff') format('woff'),
+        /* chrome、firefox */
+        url('../fonts/iconfont.ttf') format('truetype'),
+        /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+        url('../fonts/iconfont.svg#iconfont') format('svg');
+    /* iOS 4.1- */
 }
 
 
-.icon-work:before { content: "\eac9"; }
-.icon-project:before { content: "\eaf4"; }
-.icon-phone:before { content: "\ec7a"; }
-.icon-stars:before { content: "\ed32"; }
-.icon-star:before { content: "\ed1d"; }
-.icon-person:before { content: "\ec88"; }
-.icon-librarybooks:before { content: "\ebf9"; }
-.icon-education:before { content: "\ebca"; }
-.icon-create:before { content: "\eaf8"; }
-.icon-call:before { content: "\eab6"; }
-.icon-weixin:before { content: "\3488"; }
-.icon-build:before { content: "\eaa2"; }
-.icon-edit:before { content: "\eb31"; }
-.icon-flower:before { content: "\ec0a"; }
-.icon-playlistadd:before { content: "\ecae"; }
-.icon-delete:before { content: "\e61b"; }
-.icon-trophy:before { content: "\e80b"; }
+.icon-work:before {
+    content: "\eac9";
+}
+
+.icon-project:before {
+    content: "\eaf4";
+}
+
+.icon-phone:before {
+    content: "\ec7a";
+}
+
+.icon-stars:before {
+    content: "\ed32";
+}
+
+.icon-star:before {
+    content: "\ed1d";
+}
+
+.icon-person:before {
+    content: "\ec88";
+}
+
+.icon-librarybooks:before {
+    content: "\ebf9";
+}
+
+.icon-education:before {
+    content: "\ebca";
+}
+
+.icon-create:before {
+    content: "\eaf8";
+}
+
+.icon-call:before {
+    content: "\eab6";
+}
+
+.icon-weixin:before {
+    content: "\3488";
+}
+
+.icon-build:before {
+    content: "\eaa2";
+}
+
+.icon-edit:before {
+    content: "\eb31";
+}
+
+.icon-flower:before {
+    content: "\ec0a";
+}
+
+.icon-playlistadd:before {
+    content: "\ecae";
+}
+
+.icon-delete:before {
+    content: "\e61b";
+}
+
+.icon-trophy:before {
+    content: "\e80b";
+}
 
 span {
     display: inline-block;
 }
 
-.label-value{
+.label-value {
     width: 235px;
     vertical-align: top;
     word-break: break-word;
 }
 
 .iconfont {
-    font-family:"iconfont" !important;
-    font-size:1.1em;font-style:normal;
-    color:inherit;
+    font-family: "iconfont" !important;
+    font-size: 1.1em;
+    font-style: normal;
+    color: inherit;
     -webkit-font-smoothing: antialiased;
     -webkit-text-stroke-width: 0.2px;
     -moz-osx-font-smoothing: grayscale;
@@ -48,10 +105,14 @@ span {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
     box-sizing: border-box;
-    margin: 0; 
+    margin: 0;
 }
 
-h1, h2, h3, h4, h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
     font-weight: 500;
     color: #607d8b;
     line-height: 1.5;
@@ -62,11 +123,12 @@ h1, h2, h3, h4, h5 {
     margin-left: 200px;
 }
 
-.info-list li{
+.info-list li {
     margin-bottom: 10px;
 }
 
-.info-list, .progress-list{
+.info-list,
+.progress-list {
     list-style: none;
     padding-left: 0px;
     font-size: 16px;
@@ -109,7 +171,7 @@ hr {
     font-size: 20px;
     padding: 6px;
     color: #666;
-    
+
 }
 
 .remodal-img button {
@@ -118,7 +180,7 @@ hr {
 
 }
 
-.remodal-img button:hover{
+.remodal-img button:hover {
     float: right;
     background: #607d8b;
 
@@ -126,13 +188,12 @@ hr {
 
 
 body {
-    background-color: lightslategray;
+    background-color: white;
     font-family: sans-serif, Microsoft Yahei, Helvetica Neue;
     zoom: 80%;
 }
 
-footer {
-}
+footer {}
 
 p {
     line-height: 1.5;
@@ -176,16 +237,16 @@ progress::-moz-progress-value {
     margin-bottom: 20px;
 }
 
-.weixin{
+.weixin {
     margin-top: 20px;
-    background-color: #e0eaf0;   
+    background-color: #e0eaf0;
     position: relative;
     padding-top: 40px;
     padding-bottom: 40px;
     text-align: center;
 }
 
-.weixin img{
+.weixin img {
     width: 200px;
 }
 
@@ -196,24 +257,25 @@ progress::-moz-progress-value {
 
 .portrait {
     margin: 0 auto;
-    margin-top:20px;
+    margin-top: 20px;
     margin-bottom: 10px;
-    background-image:url('http://b394.photo.store.qq.com/psb?/V13zBB7Z0EKmGz/SqG9I8E5gVJpc6ON4H0TGt3nc17DuoGryc6TzuNNxPE!/b/dM*t4.qcBAAA&bo=gAJVAwAAAAABB*Q!&rf=viewer_4');
+    background-image: url('http://b394.photo.store.qq.com/psb?/V13zBB7Z0EKmGz/SqG9I8E5gVJpc6ON4H0TGt3nc17DuoGryc6TzuNNxPE!/b/dM*t4.qcBAAA&bo=gAJVAwAAAAABB*Q!&rf=viewer_4');
     background-size: 120%;
-    background-position:center;
-    border-radius:50%;
-    border:5px solid #607d8b;
-    width:160px;
-    height:160px;
+    background-position: center;
+    border-radius: 50%;
+    border: 5px solid #607d8b;
+    width: 160px;
+    height: 160px;
 }
 
 
 .container {
     position: relative;
     margin: 0 auto;
+    /* border: 1px solid black; */
 
-    width: 1050px;
-    height: 1600px;
+    width: 1400px;
+    height: 2500px;
     background-color: white;
 
 }
@@ -225,11 +287,23 @@ progress::-moz-progress-value {
     background-color: whitesmoke;
     padding-left: 20px;
     padding-right: 20px;
+    font-size: 18px !important;
+
+
+}
+
+.side .label-value {
+    font-size: 18px;
+}
+
+.side label {
+    font-size: 18px;
 }
 
 .main {
-    
-    position: relative;;
+
+    position: relative;
+    ;
     margin-left: 360px;
     min-height: 100%;
     padding: 20px;
@@ -258,40 +332,72 @@ progress::-moz-progress-value {
     margin-right: 2px;
     visibility: hidden;
     cursor: pointer;
-    
+
 }
 
- .item-remove {
+.item-remove {
     position: absolute;
     right: 2px;
     margin-right: 2px;
     visibility: hidden;
     cursor: pointer;
-    
+
 }
 
-ul li{
+ul li {
     position: relative;
 }
 
- .experience-list .item-remove {
+.experience-list {
+    font-size: 18px;
+}
+
+.experience-list .item-remove {
     position: absolute;
     right: 2px;
     top: 0px;
     margin-right: 2px;
     visibility: hidden;
     cursor: pointer;
-    
+
 }
 
- .stack-list .item-remove {
+.experience-list .link-wrapper {
+    margin-bottom: 10px;
+}
+
+.experience-list .link-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.experience-list .link-container a {
+    width: 100px;
+}
+
+.experience-list .desc-wrapper {
+    margin-bottom: 10px;
+}
+
+.experience-list .description {
+    margin-bottom: 10px;
+}
+
+.experience-list .label {
+    font-weight: 500;
+    color: black;
+    font-size: 20px;
+    margin-bottom: 5px;
+}
+
+
+
+.stack-list .item-remove {
     position: absolute;
     right: 2px;
     top: 0px;
     margin-right: 2px;
     visibility: hidden;
     cursor: pointer;
-    
+
 }
-
-
